@@ -1,22 +1,24 @@
 package test;
+
 //2a3b3c
 public class S3_StringTransform {
-	public static String transform(String S) {
-		StringBuffer sb = new StringBuffer();
-		int count = 1;
-		for (int i = 1; i < S.length(); i++) {
-			if (Character.toLowerCase(S.charAt(i)) == Character.toLowerCase(S.charAt(i - 1))) {
-				count++;
-			} else {
-				sb.append(count).append(Character.toLowerCase(S.charAt(i - 1)));
-				count = 1;
+	// longest Common PrefixInput: arr[] = ["geeksforgeeks", "geeks", "geek",
+	// "geezer"] Output: "gee"
+	public static String longestCommonPrefix(String str[]) {
+		if (str == null || str.length == 0)
+			return "";
+		String pre = str[0];
+		for (int i = 1; i < str.length; i++) {
+			while (!str[i].startsWith(pre)) {
+				pre = pre.substring(0, pre.length() - 1);
+				if (pre.isEmpty())
+					return "";
 			}
 		}
-		sb.append(count).append(Character.toLowerCase(S.charAt(S.length() - 1)));
-		return sb.toString();
+		return pre;
 	}
 
 	public static void main(String[] args) {
-		System.out.println(transform("aabbbccc"));
+		System.out.println(longestCommonPrefix(new String[]{"geeksforgeeks", "geeks", "geek", "geezer"}));
 	}
 }
