@@ -1,6 +1,6 @@
 package test;
 //Remove Special Characters
-public class S15_RemoveSpecialCharacter {
+public class S17_RemoveSpecialCharacter {
 	public static String removeSpecialCharacter(String s) {
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < s.length(); i++) {

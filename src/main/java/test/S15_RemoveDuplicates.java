@@ -1,7 +1,7 @@
 package test;
 
 //index of find first Occurence Input: txt = "GeeksForGeeks", pat = "For" Output: 5
-public class S14_RemoveDuplicates {
+public class S15_RemoveDuplicates {
 	public static String removeDuplicates(String str) {
 		String s = str.toLowerCase();
 		StringBuilder sb = new StringBuilder();

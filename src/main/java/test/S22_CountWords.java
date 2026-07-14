@@ -1,6 +1,6 @@
 package test;
 
-public class S21_CountWords {
+public class S22_CountWords {
  //Count number of words
 	public static int countWords(String s) {
 		s = s.replace("\\n", " ");

@@ -21,7 +21,6 @@ public class S6_LongestString {
 		list.add("Kamel");
 		list.add("himeshi");
 		list.add("Gauri");
-		
 		System.out.println(longest(list));
 	}
 }

@@ -1,7 +1,7 @@
 package test;
 
 //index of find first Occurence Input: txt = "GeeksForGeeks", pat = "For" Output: 5
-public class S13_FirstOccurence {
+public class S14_FirstOccurence {
 	public static int firstOccurence(String txt, String pat) {
 		int lenTxt = txt.length();
 		int lenPat = pat.length();

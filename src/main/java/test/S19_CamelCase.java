@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class S18_CamelCase {
+public class S19_CamelCase {
 	public static List<String> camelCase(String[] arr, String pat) {
 		ArrayList<String> result = new ArrayList<>();
 		for(int i =0 ; i<arr.length; i++){

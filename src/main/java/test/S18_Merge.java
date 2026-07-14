@@ -1,6 +1,6 @@
 package test;
 
-public class S17_Merge {
+public class S18_Merge {
 	// merge two String
 	public static String merge(String s1, String s2) {
 		StringBuilder sb = new StringBuilder();

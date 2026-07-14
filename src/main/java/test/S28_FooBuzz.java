@@ -3,7 +3,7 @@ package test;
 import java.util.ArrayList;
 
 //Foo Buzz
-public class S27_FooBuzz {
+public class S28_FooBuzz {
 	public static ArrayList<String> fizzBuzz(int n) {
 		ArrayList<String> str = new ArrayList<>();
 		for (int i = 1; i <= n; i++) {

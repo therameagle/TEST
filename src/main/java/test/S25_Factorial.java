@@ -3,7 +3,7 @@ package test;
 import java.math.BigInteger;
 import java.util.ArrayList;
 
-public class S24_Factorial {
+public class S25_Factorial {
 	public static ArrayList<Integer> factorial(int n) {
 		ArrayList<Integer> resultElements = new ArrayList<>();
 		BigInteger result = BigInteger.ONE;

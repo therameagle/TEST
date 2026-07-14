@@ -1,6 +1,6 @@
 package test;
 
-public class S22_Check_String_contains_All_Character_Same {
+public class S23_Check_String_contains_All_Character_Same {
 	public static Boolean check_String_contains_All_Character_Same(String s) {
 		char a = s.charAt(0);
 		for (int i = 0; i < s.length(); i++) {

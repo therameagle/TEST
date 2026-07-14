@@ -17,9 +17,8 @@ public class S7_LongestUniqueSubstr {
 		}
 		return maxLength;
 	}
-
-
 	public static void main(String[] args) {
 		System.out.println(longestUniqueSubstr("geeksforgeeks"));
+		System.out.println(longestUniqueSubstr("abcabcbb"));
 	}
 }
