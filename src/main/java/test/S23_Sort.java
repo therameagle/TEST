@@ -1,7 +1,7 @@
 package test;
 
 //Sort String
-public class S21_Sort {
+public class S23_Sort {
 	public static String sort(String s) {
 	    int[] freq = new int[26];
 	    StringBuilder sb = new StringBuilder();

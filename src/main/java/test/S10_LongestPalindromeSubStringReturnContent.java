@@ -25,8 +25,6 @@ public class S10_LongestPalindromeSubStringReturnContent {
 		}
 		return longestPalin;
 	}
-
-
 	public static void main(String[] args) {
 		System.out.println(LongestPalindromeSubStringReturnContent("babad")); // "bab" or "aba"
 		System.out.println(LongestPalindromeSubStringReturnContent("cbbd"));  // "bb"

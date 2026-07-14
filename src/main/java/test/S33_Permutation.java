@@ -1,6 +1,6 @@
 package test;
 
-public class S30_Permutation {
+public class S33_Permutation {
 	public static void permutations(String str, String ans) {
 		if (str.length() == 0) {
 			System.out.print(ans + " ");

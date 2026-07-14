@@ -1,7 +1,7 @@
 package test;
 
 //String rotated by 2 place
-public class S20_IsRotated {
+public class S22_IsRotated {
 	public static boolean isRotated(String s1, String s2) {
 		if (s1.length() != s2.length()) {
 			return false;

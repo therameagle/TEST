@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 //Non Repeating Character Input: s = "geeksforgeeks" Output: 'f'
-public class S12_NonRepeatingChar {
+public class S14_FirstRepeating {
 	public static char nonRepeatingChar(String s) {
 		Map<Character, Integer> freqMap = new LinkedHashMap<>();
 		for (char ch : s.toCharArray()) {

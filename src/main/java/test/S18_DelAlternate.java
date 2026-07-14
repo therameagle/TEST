@@ -1,6 +1,6 @@
 package test;
 
-public class S16_DelAlternate {
+public class S18_DelAlternate {
 	//Delete Alternate Character
 	public static String delAlternate(String S) {
 		StringBuilder s = new StringBuilder();

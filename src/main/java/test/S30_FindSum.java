@@ -1,7 +1,7 @@
 package test;
 
 //find Input: s = "1abc23" Output: 24
-public class S27_FindSum {
+public class S30_FindSum {
 	public static int findSum(String s) {
 		int sum = 0;
 		int num = 0;
