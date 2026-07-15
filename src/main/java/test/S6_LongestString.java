@@ -1,6 +1,7 @@
 package test;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 //2a3b3c
@@ -22,5 +23,9 @@ public class S6_LongestString {
 		list.add("himeshi");
 		list.add("Gauri");
 		System.out.println(longest(list));
+	}
+
+	public String longestAnotherWay(List<String> arr) {
+		return arr.stream().max(Comparator.comparingInt(String::length)).orElse("");
 	}
 }

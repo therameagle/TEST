@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class S21_CamelCase {
-	public static List<String> camelCase(String[] arr, String pat) {
+public class S23_CamelCaseAllPossibleString {
+	public static List<String> camelCaseAllPossibleString(String[] arr, String pat) {
 		ArrayList<String> result = new ArrayList<>();
 		for(int i =0 ; i<arr.length; i++){
 			String words = arr[i];
@@ -25,6 +25,10 @@ public class S21_CamelCase {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(camelCase(new String[]{"String", "is", "awesome"}, ""));
+		System.out.println(camelCaseAllPossibleString(new String[]{"HiTechCity",
+                "HelloWorld",
+                "HiTechLab",
+                "HiTechWorld",
+                "HelloTech"}, "HT"));	
 	}
 }

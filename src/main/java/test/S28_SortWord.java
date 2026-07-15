@@ -1,7 +1,7 @@
 package test;
 
 //Sort String
-public class S24_SortWord {
+public class S28_SortWord {
 	public static void wordSort() {
 		String[] st = { "Mumbai", "Delhi", "Kolkata", "Ahmedabad", "Banglore", "Pune" };
 		String temp = null;

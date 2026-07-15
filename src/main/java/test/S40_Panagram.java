@@ -1,6 +1,6 @@
 package test;
 
-public class S32_Panagram {
+public class S40_Panagram {
 	public static boolean isPanagram(String str) {
 		for (char ch = 'a'; ch <= 'z'; ch++) {
 			boolean found = false;

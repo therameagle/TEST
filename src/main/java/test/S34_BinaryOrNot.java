@@ -1,6 +1,6 @@
 package test;
 
-public class S28_BinaryOrNot {
+public class S34_BinaryOrNot {
 	public static boolean isBinary(String s) {
 		char[] c = s.toCharArray();
 		for (char ch : c) {
