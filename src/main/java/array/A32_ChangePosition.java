@@ -17,3 +17,24 @@ public class A32_ChangePosition {
 		changePositions();
 	}
 }
+
+/*
+def change_positions():
+    arr = [1, 2, 3, 4, 5]
+    n = len(arr)
+
+    for i in range(n):
+        temp = arr[i]
+        arr[i] = arr[(n - i) - 1]
+        arr[(n - i) - 1] = temp
+        print(arr[i], end="")
+
+
+# Driver code
+change_positions()
+
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(1)** |
+*/

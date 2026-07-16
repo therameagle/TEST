@@ -26,3 +26,34 @@ public class A39_RearrangingRotate {
 		System.out.println(Arrays.toString(arr));
 	}
 }
+
+/*
+def rearrange_rotate(arr):
+    # Sort the array
+    arr.sort()
+    n = len(arr)
+    temp = arr[:]
+    left = 0
+    right = n - 1
+
+    flag = True  # True for maximum, False for minimum
+    for i in range(n):
+        if flag:
+            arr[i] = temp[right]
+            right -= 1
+        else:
+            arr[i] = temp[left]
+            left += 1
+
+        flag = not flag
+
+# Driver code
+arr = [1, 2, 3, 4, 5, 6]
+rearrange_rotate(arr)
+print(arr)
+
+		| Complexity           | Value          |
+		| -------------------- | -------------- |
+		| **Time Complexity**  | **O(n log n)** |
+		| **Space Complexity** | **O(n)**       |
+*/

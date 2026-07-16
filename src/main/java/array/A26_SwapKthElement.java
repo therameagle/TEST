@@ -23,3 +23,21 @@ public class A26_SwapKthElement {
 		System.out.println(swapKth(arr,k));
 	}
 }
+
+/*
+def swap_kth(arr, k):
+    n = len(arr)
+    arr[k - 1], arr[n - k] = arr[n - k], arr[k - 1]
+    return arr
+
+def main():
+    arr = [1, 2, 3, 4, 5, 6, 7, 8]
+    k = 3
+    print(swap_kth(arr, k))
+if __name__ == "__main__":
+    main()
+    
+    | Approach            | Time     | Space    |
+    | ------------------- | -------- | -------- |
+    | Swap using indexing | **O(1)** | **O(1)** |
+*/

@@ -27,3 +27,29 @@ public class A8_MissingNumber2 {
 		System.out.println(missingNum(a));
 	}
 }
+
+
+/*
+def missing_num(arr):
+    n = len(arr) + 1
+    # Check numbers from 1 to n
+    for i in range(1, n + 1):
+        found = False
+        for j in range(n - 1):
+            if arr[j] == i:
+                found = True
+                break
+        # Number is missing
+        if not found:
+            return i
+    return -1
+
+# Driver code
+arr = [1, 2, 3, 4, 5, 10]
+print(missing_num(arr))
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(1)** |
+
+*/

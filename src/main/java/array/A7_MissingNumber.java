@@ -25,3 +25,24 @@ public class A7_MissingNumber {
 		System.out.println(findMissing(a, b));
 	}
 }
+
+/*
+def find_missing(a, b):
+    result = []
+    # Store elements of second array in a set
+    s1 = set(b)
+    # Find elements present in first array but missing in second array
+    for num in a:
+        if num not in s1:
+            result.append(num)
+    return result
+# Driver code
+a = [1, 2, 3, 4, 5, 10]
+b = [2, 3, 1, 0, 5]
+print(find_missing(a, b))
+
+| Complexity           | Value        |
+| -------------------- | ------------ |
+| **Time Complexity**  | **O(n + m)** |
+| **Space Complexity** | **O(n + m)** |
+*/

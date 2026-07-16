@@ -23,3 +23,26 @@ public class A6_FindIndex {
 		System.out.println(Arrays.toString(findIndex(a, key)));
 	}
 }
+
+/*
+def find_index(arr, key):
+    start = -1
+    end = -1
+    for i in range(len(arr)):
+        if arr[i] == key:
+            if start == -1:
+                start = i
+            end = i
+    return [start, end]
+
+# Driver code
+arr = [1, 2, 3, 4, 5, 5]
+key = 5
+print(find_index(arr, key))
+
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(1)** |
+
+*/

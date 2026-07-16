@@ -33,3 +33,41 @@ public class A30_IsBalanced {
 		}
 	}
 }
+
+/*
+def is_balanced_parentheses_checker(s):
+    stack = []
+    for ch in s:
+        if ch in "([{":
+            stack.append(ch)
+        elif ch == ']' and stack and stack[-1] == '[':
+            stack.pop()
+        elif ch == '}' and stack and stack[-1] == '{':
+            stack.pop()
+        elif ch == ')' and stack and stack[-1] == '(':
+            stack.pop()
+        else:
+            return False
+    return len(stack) == 0
+# Driver code
+test_cases = [
+    "()",
+    "()[]{}",
+    "([{}])",
+    "([)]",
+    "{[}]",
+    "([)])",
+    "",
+    "((()))",
+    "[{()}]"
+]
+
+for test in test_cases:
+    result = is_balanced_parentheses_checker(test)
+    print(f'String: "{test}" -> Balanced: {result}')
+    
+    | Complexity           | Value    |
+    | -------------------- | -------- |
+    | **Time Complexity**  | **O(n)** |
+    | **Space Complexity** | **O(n)** |
+*/

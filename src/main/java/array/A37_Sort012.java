@@ -30,3 +30,31 @@ public class A37_Sort012 {
 		sort_012(arr);
 	}
 }
+
+/*
+def sort_012(arr):
+    n = len(arr)
+
+    cnt0 = 0
+    cnt1 = 0
+    for i in range(n):
+        if arr[i] == 0:
+            cnt0 += 1
+        elif arr[i] == 1:
+            cnt1 += 1
+    for i in range(cnt0):
+        arr[i] = 0
+    for i in range(cnt0, cnt0 + cnt1):
+        arr[i] = 1
+    for i in range(cnt0 + cnt1, n):
+        arr[i] = 2
+    print(arr)
+# Driver code
+arr = [0, 1, 2, 0, 1, 2]
+sort_012(arr)
+
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(1)** |
+*/

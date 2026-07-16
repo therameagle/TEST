@@ -30,3 +30,26 @@ public class A27_AddIncrement{
 		System.out.println(add_Increment(arr,k));
 	}
 }
+
+/*
+def add_increment(arr):
+    result = []
+    carry = 1  # Increment by 1
+    for i in range(len(arr) - 1, -1, -1):
+        total = arr[i] + carry
+        result.append(total % 10)
+        carry = total // 10
+    if carry > 0:
+        result.append(carry)
+
+    # Reverse to restore the correct order
+    result.reverse()
+    return result
+# Driver code
+arr = [1, 2, 4]
+print(add_increment(arr))
+
+Overall Time Complexity: O(n)
+Overall Space Complexity: O(n)
+
+*/

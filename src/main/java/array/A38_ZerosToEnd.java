@@ -22,3 +22,26 @@ public class A38_ZerosToEnd {
 		System.out.println(Arrays.toString(arr));
 	}
 }
+
+
+/*
+def push_zeros_to_end(arr):
+    k = 0
+    for i in range(len(arr)):
+        if arr[i] != 0:
+            arr[k] = arr[i]
+            k += 1
+    for j in range(k, len(arr)):
+        arr[k] = 0
+        k += 1
+# Driver code
+arr = [1, 2, 0, 4, 3, 0, 5, 0]
+push_zeros_to_end(arr)
+print(arr)
+
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(1)** |
+*/
+

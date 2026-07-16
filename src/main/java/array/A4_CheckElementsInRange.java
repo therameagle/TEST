@@ -23,3 +23,26 @@ public class A4_CheckElementsInRange {
 		System.out.println(checkElementsInRange(arr,n,a, b));
 	}
 }
+
+/*
+def check_elements_in_range(arr, n, a, b):
+    count = 0
+    for i in range(a, b + 1):
+        for j in range(n):
+            if arr[j] == i:
+                count += 1
+                break
+    return count == (b - a + 1)
+# Driver code
+arr = [1, 4, 5, 2, 7, 8, 3]
+a = 2
+b = 5
+n = len(arr)
+print(check_elements_in_range(arr, n, a, b))
+
+| Complexity           | Value              |
+| -------------------- | ------------------ |
+| **Time Complexity**  | **O(n + (b-a+1))** |
+| **Space Complexity** | **O(n)**           |
+
+*/

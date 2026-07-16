@@ -27,3 +27,28 @@ public class A28_Unique {
 		System.out.println("Unique elements: " + result);
 	}
 }
+
+/*
+def unique():
+    input_arr = [1, 3, 7, 11, 3, 8, 11]
+    # Count the frequency of each element
+    frequency = {}
+    for num in input_arr:
+        frequency[num] = frequency.get(num, 0) + 1
+    # Collect elements that appear only once
+    result = []
+    for num in input_arr:
+        if frequency[num] == 1:
+            result.append(num)
+    return result
+
+# Driver code
+result = unique()
+print("Unique elements:", result)
+
+| Operation            | Complexity |
+| -------------------- | ---------- |
+| **Time Complexity**  | **O(n)**   |
+| **Space Complexity** | **O(n)**   |
+
+*/

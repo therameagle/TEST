@@ -26,3 +26,30 @@ public class A35_SortAlternate {
 		System.out.println(alternate_Sort(arr));
 	}
 }
+
+/*
+def alternate_sort(arr):
+    # Sort the array
+    arr.sort()
+    n = len(arr)
+    start = 0
+    end = n - 1
+    result = []
+    for i in range(n):
+        if i % 2 == 0:
+            result.append(arr[end])
+            end -= 1
+        else:
+            result.append(arr[start])
+            start += 1
+    return result
+
+# Driver code
+arr = [7, 1, 2, 3, 4, 5, 6]
+print(alternate_sort(arr))
+
+| Complexity           | Value          |
+| -------------------- | -------------- |
+| **Time Complexity**  | **O(n log n)** |
+| **Space Complexity** | **O(n)**       |
+*/

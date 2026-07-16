@@ -23,3 +23,19 @@ public class A11_Union {
 
 	}
 }
+
+/*
+def find_union(a, b):
+    return sorted(set(a).union(set(b)))
+
+def main():
+    a = [1, 2, 3, 4, 5]
+    b = [2, 3, 1, 6, 7]
+    print("Union:", find_union(a, b))
+
+if __name__ == "__main__":
+    main()
+
+Time: O((n + m) log(n + m)) due to sorting.
+Space: O(n + m).
+*/

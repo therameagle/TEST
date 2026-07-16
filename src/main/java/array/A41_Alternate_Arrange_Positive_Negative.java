@@ -37,3 +37,37 @@ public class A41_Alternate_Arrange_Positive_Negative {
 		System.out.println("Output: " + al);
 	}
 }
+
+
+/*
+def alternate_arrange_positive_negative(arr):
+    pos = []
+    neg = []
+    # Separate positive and negative numbers
+    for v in arr:
+        if v >= 0:
+            pos.append(v)
+        else:
+            neg.append(v)
+    k = 0
+    # Arrange elements alternately
+    for i in range(len(arr)):
+        if i < len(pos):
+            arr[k] = pos[i]
+            k += 1
+        if i < len(neg):
+            arr[k] = neg[i]
+            k += 1
+
+# Driver code
+arr = [9, 4, -2, -1, 5, 0, -5, -3, 2]
+print("Input:", arr)
+alternate_arrange_positive_negative(arr)
+print("Output:", arr)
+
+
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(n)** |
+*/

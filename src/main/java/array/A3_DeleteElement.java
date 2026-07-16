@@ -24,3 +24,27 @@ public class A3_DeleteElement {
 		System.out.println(deleteElement(a, b));
 	}
 }
+
+/*
+def delete_element(arr, k):
+    result = []
+    result.append(arr[0])
+    count = 0
+    for i in range(1, len(arr)):
+        while result and result[-1] < arr[i] and count != k:
+            result.pop()
+            count += 1
+        result.append(arr[i])
+    return result
+
+# Driver code
+arr = [20, 10, 25, 30, 40]
+k = 2
+print(delete_element(arr, k))
+
+| Complexity           | Value    |
+| -------------------- | -------- |
+| **Time Complexity**  | **O(n)** |
+| **Space Complexity** | **O(n)** |
+*/
+

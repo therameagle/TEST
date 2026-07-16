@@ -23,3 +23,34 @@ public class A25_LargestSmallest {
 		largestAndSmallest(a);
 	}
 }
+
+/*
+def largest_and_smallest(numbers):
+    largest = float('-inf')
+    smallest = float('inf')
+
+    for number in numbers:
+        if number > largest:
+            largest = number
+        if number < smallest:
+            smallest = number
+
+    print("Given integer array:", numbers)
+    print("Largest number in array is:", largest)
+    print("Smallest number in array is:", smallest)
+
+
+def main():
+    arr = [9, 7, 16, 16, 4]
+    largest_and_smallest(arr)
+
+
+if __name__ == "__main__":
+    main()
+    
+    
+    | Approach                      | Time     | Space    |
+    | ----------------------------- | -------- | -------- |
+    | Manual Traversal (Java-style) | **O(n)** | **O(1)** |
+    | `max()` + `min()`             | **O(n)** | **O(1)** |
+*/
